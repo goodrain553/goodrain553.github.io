@@ -103,7 +103,7 @@ $$
 z = \mu^\prime(x) + \Sigma^\prime(x) \times a
 $$
 参考下图的右图：
-![*图4*](https://github.com/goodrain553/goodrain553.github.io/blob/master/_posts/img3.png)
+![](/img3.png)
 
 
 

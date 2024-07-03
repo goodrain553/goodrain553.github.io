@@ -1,12 +1,12 @@
 ---
-title: "VAE做了什么"
-subtitle: "直观解释VAE的原理和功能"
-layout: post
-author: "xiaoNiao"
-header-style: text
-hidden: false
+layout:     post
+title:      "VAE做了什么"
+subtitle:   "直观解释VAE"
+date:       2024-07-23 12:00:00
+author:     "xiaoNiao"
+catalog: true
 tags:
-  - deep learning
+    - deep learning
 ---
 
 ## 一、用VAE解决什么问题？

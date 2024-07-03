@@ -150,9 +150,9 @@ $$
 \geq \int_{z}q(z|x)log\left( \frac{P(z,x)}{q(z|x)} \right)dz = \int_{z}q(z|x)log\left( \frac{P(x|z)P(z)}{q(z|x)} \right)dz
 $$
 
-于是，上式就是$logP(x)$的下界(lower bound)，记作$L_b$。所以，现在通过优化$q(z|x)$来找到最大的$L_b$。
+于是，上式就是$logP(x)$的下界(lower bound)，记作$L_b$。所以，现在通过优化${q(z|x)}$来找到最大的$L_b$。
 
-由于之前我们在变形的时候同时乘上并且除以$q(z|x)$，因此通过调整$q(z|x)$来最大化$L_b$时，不会影响$\log(P(x))$的大小，并且随着$L_b$的增大$KL$散度还会减小，这意味着$q(z|x)$和$P(z|x)$之间的差异也会来越小：
+由于之前我们在变形的时候同时乘上并且除以${q(z|x)}$，因此通过调整${q(z|x)}$来最大化$L_b$时，不会影响$\log(P(x))$的大小，并且随着$L_b$的增大$KL$散度还会减小，这意味着${q(z|x)}$和${P(z|x)}$之间的差异也会来越小：
 
 ![](https://github.com/goodrain553/goodrain553.github.io/raw/master/_posts/img2.png)
 
@@ -168,7 +168,7 @@ $$
 
 现在要做两件事:
 
-**1.最小化 $KL(q(z|x) \| P(z))$**
+**1.最小化 ${KL(q(z|x) \| P(z))}$**
 
 在神经网络中，调节$q(z|x)$对应着调节编码器的神经网络，当$q(z|x)$越接近正态分布时，他们之间就越接近。详情请参考以下链接的附录2.
 [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114)

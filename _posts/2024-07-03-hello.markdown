@@ -2,7 +2,7 @@
 layout:     post
 title:      "VAE做了什么"
 subtitle:   "直观解释VAE"
-date:       2024-07-23 12:00:00
+date:       2024-07-03 12:00:00
 author:     "xiaoNiao"
 catalog: true
 tags:

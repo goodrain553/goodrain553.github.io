@@ -53,7 +53,7 @@ When creating dataset, producers need to design some dance cards, which tell the
 
 here are some examples of dance cards, which are from Ubisoft and Game Science.
 
-![](https://github.com/goodrain553/goodrain553.github.io/raw/master/_posts/dance_card1.png)
+![](https://github.com/goodrain553/goodrain553.github.io/raw/master/_posts/img/dance_card1.png)
 
 After lots of attempt, some producers (e.g. Game Science) categorize these motions into two parts, *free movement* and *directional movement*. Free movement refers to those whose face faces to the same direction as their body. And directional movement refers to those with face facing one direction. For instance, the soilder aiming at the target moves from right to left. And then, these two major categories are further divided into five sub-categories. 
 

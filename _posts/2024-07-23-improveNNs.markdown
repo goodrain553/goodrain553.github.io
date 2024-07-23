@@ -6,6 +6,7 @@ date:       2024-07-23 12:00:00
 author:     "xiaoNiao"
 catalog: true
 mathjax: true
+header-img: "img/paris-fzx.jpg"
 tags:
     - computer graphics
     - algorithm

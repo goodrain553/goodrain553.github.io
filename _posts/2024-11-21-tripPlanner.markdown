@@ -11,6 +11,12 @@ tags:
     - mobile application
 ---
 
+<style>
+    p{
+        text-align:justify
+        text-justify:inter-word
+    }
+</style>
 # Trip Planner
 
 ## What is your MBTI?

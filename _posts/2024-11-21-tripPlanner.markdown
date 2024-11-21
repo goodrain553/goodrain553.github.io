@@ -6,7 +6,7 @@ date:       2024-11-21 12:00:00
 author:     "xiaoNiao"
 catalog: true
 mathjax: true
-header-img: "img/headimg/androidHeader.jpg"
+header-img: "img/androidHeader.jpg"
 tags:
     - mobile application
 ---

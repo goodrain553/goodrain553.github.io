@@ -2,7 +2,7 @@
 title:      "How to build your own environment in Robosuite"
 description:   "tired of read the source code"
 date:       2024-12-23 12:00:00
-author:     "xiaoNiao"
+author:     xiaoNiao
 math: true
 tags: [embodied AI, robotics]
 ---

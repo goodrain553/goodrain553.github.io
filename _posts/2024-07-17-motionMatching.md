@@ -2,7 +2,7 @@
 title:      "Motion Matching - part I"
 description:   "A new way to next generation of animation"
 date:       2024-07-17 12:00:00
-author:     "xiaoNiao"
+author:     xiaoNiao
 catalog: true
 mathjax: true
 tags: [computer graphics,game develop]

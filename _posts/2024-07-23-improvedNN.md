@@ -2,7 +2,7 @@
 title:      "Two Methods for Improving Nearest Neighbor Searching in Motion Matching"
 description:   "A new way to next generation of animation"
 date:       2024-07-23 12:00:00
-author:     "xiaoNiao"
+author:     xiaoNiao
 math: true
 tags: [computer graphics,game develop]
 ---

@@ -13,11 +13,11 @@ tags: [embodied AI, robotics]
 ## Overview
 <div style="text-align: justify; text-justify: inter-word;">
 
-Robosuite is a quite famous simulation environment for embodied AI. Many works are done based on it like robomimic, mimicgen etc.
+Robosuite is a highly renowned simulation environment for embodied AI. Numerous projects have been developed based on it, such as Robomimic and MimicGen.
 
-Recently, I have been trying to learn more about it because I find it suitable for my project. Before robosuite, I also take  attempts to other simulators/enviroments like Sapien, omnigibson...
+Recently, I have been delving deeper into Robosuite because I find it well-suited for my project. Prior to exploring Robosuite, I had also experimented with other simulators and environments, like Sapien and OmniGibson.
 
-Every time I begin to get familiar with a new simulator, it is really troublesome and frustrated. So I write this blog to note some findings or tricks when learning it.
+Each time I start to familiarize myself with a new simulator, the process can be quite challenging and frustrating. Therefore, I am writing this blog to document some useful findings and tips that I discover along the way
 
 </div>
 
@@ -26,14 +26,16 @@ Every time I begin to get familiar with a new simulator, it is really troublesom
 
 First, check the official document. 
 
-Apparently, you can find it in this page (https://robosuite.ai/docs/tutorials/add_environment.html). But when I do like what this page told, I just can not figure out what I am doing. 
+Apparently, you can find it in this page 
+![official tutorial](https://robosuite.ai/docs/tutorials/add_environment.html).
+ But when I do as what this page told, I just can not figure out what I am doing. 
 
-Therefore, I strongly recommand to take a look at those files in ./robosuite/enviroments/manipulation/. after that you can find there would be 5 functions there for every task respectively, _load_models, reward, _check_success, reset_internal, _setup_observables.
+Therefore, I strongly recommend to take a look at those files in *./robosuite/enviroments/manipulation/*. after that you can find there would be 5 functions there for every task respectively, **_load_models, reward, _check_success, reset_internal, _setup_observables**.
 
 Just like what has been told in issue#526: 
 ![screenshot](/assets/image/robosuite/screenshot.png)
 
-among these 5 functions, the 2 most important ones are _load_models() and _setup_observables. Taking ./robosuite/enviroments/manipulation/lift.py as an example: 
+among these 5 functions, the 2 most important ones are _load_models() and _setup_observables. Taking *./robosuite/enviroments/manipulation/lift.py* as an example: 
 </div>
 
 
@@ -107,11 +109,11 @@ among these 5 functions, the 2 most important ones are _load_models() and _setup
 
 <div style="text-align: justify; text-justify: inter-word;">
 
-To design a different scene, we should change the robot, arena, objects here. Besides, you have to register the task in ./robosuite/\_\_init\_\_.py by adding a line: 
+To design a different scene, we should change the robot, arena, objects here. Besides, you have to register the task in *./robosuite/__init__.py* by adding a line: 
 
     from robosuite.environment.manipulation.yourtask import yourtask
 
-after that, you can modify the parameters in ./robosuite/demos or add the name of your task after the **--environment**.
+after that, you can modify the parameters in *./robosuite/demos* or add the name of your task after the --environment.
 
 </div>
 
@@ -119,6 +121,6 @@ after that, you can modify the parameters in ./robosuite/demos or add the name o
 
 <div style="text-align: justify; text-justify: inter-word;">
 
-Robosuite is good simulator, but the official tutorial is not friendly for greenhand like me. I hope my blog could help you when you find difficulty in creating your own enviroment, at least, save your time. I wish I could have time to tell more about the details in the future.
+Robosuite is a great simulator, but its official tutorial isn’t very beginner-friendly. I hope my blog can help you if you run into difficulties while creating your own environment. At the very least, it should save you some time. I wish I had more time to delve into the details in the future.
 
 </div>

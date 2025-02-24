@@ -1,6 +1,6 @@
 ---
 title:      "How to Read an Academic Paper"
-description:   ": My Paper Reading Guideline"
+description:   " My Paper Reading Guideline"
 date:       2024-12-23 12:00:00
 author:     xiaoNiao
 math: true
